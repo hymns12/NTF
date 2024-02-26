@@ -16,7 +16,7 @@ contract NFTMarket is ERC721URIStorage {
 
     mapping(uint256 => Listing) public listings;
 
-    constructor() ERC721("OnChainNFT", "OCN") {}
+    constructor() ERC721("sideyo", "SPY") {}
 
     function simplifiedFormatTokenURI(string memory imageURI)
         public
